@@ -3,7 +3,7 @@ import "./App.css";
 
 import Main from "./LandingPage/MainBody";
 import Header from "./LandingPage/Header";
-import StandardFooter from "./Footer";
+import Footer from "./LandingPage/Footer";
 
 // Define the App component that renders the Header, Main, and Footer components
 const App: React.FC = () => {
@@ -11,7 +11,7 @@ const App: React.FC = () => {
         <div className="App">
             <Header />
             <Main />
-            <StandardFooter />
+            <Footer />
         </div>
     );
 };
