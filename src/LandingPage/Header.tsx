@@ -5,6 +5,7 @@ import {
     faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// @ts-ignore
 import React from "react";
 
 // Define an interface for the props of the NavItem component
