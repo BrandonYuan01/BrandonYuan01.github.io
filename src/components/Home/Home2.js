@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import uvaLogo from "../../Assets/uva.png";
 import Tilt from "react-parallax-tilt";
 import {
     AiFillGithub,
@@ -14,17 +14,17 @@ function Home2() {
         <Container fluid className="home-about-section" id="about">
             <Container>
                 <Row>
-                    <Col md={8} className="home-about-description">
+                    <Col md={7} className="home-about-description">
                         <h1 style={{ fontSize: "2.6em" }}>
                             LET ME <span className="purple"> INTRODUCE </span> MYSELF
                         </h1>
                         <p className="home-about-body">
-                            I fell in love with programming and I have at least learnt
-                            something, I think… 🤷‍♂️
+                            I'm a current 3rd year at the University of Virginia, working towards a
+                            Bachelor's of Science for Computer Science.
                             <br />
-                            <br />I am fluent in classics like
+                            <br />I am fluent in
                             <i>
-                                <b className="purple"> C++, Javascript and Go. </b>
+                                <b className="purple"> Python, Java, JavaScript, and C++. </b>
                             </i>
                             <br />
                             <br />
@@ -52,15 +52,12 @@ function Home2() {
                             </i>
                         </p>
                     </Col>
-                    {/*<Col md={4} className="myAvtar">*/}
-                    {/*    /!*<Tilt>*!/*/}
-                    {/*    /!*    <img src={myImg} className="img-fluid" alt="avatar" />*!/*/}
-                    {/*    /!*</Tilt>*!/*/}
-                    {/*</Col>*/}
-                </Row>
-                <Row>
-                    <Col md={12} className="home-about-social">
-                        <h1>FIND ME ON</h1>
+                    <Col md={5} className="home-about-social">
+                        <img
+                            src={uvaLogo}
+                            alt="UVA Logo"
+                            style={{maxWidth: "100px", marginBottom: "20px", marginTop: "175px"}}
+                        />
                         <p>
                             Feel free to <span className="purple">connect </span>with me
                         </p>
@@ -82,7 +79,7 @@ function Home2() {
                                     rel="noopener noreferrer"
                                     className="icon-colour home-social-icons"
                                 >
-                                    <FaLinkedinIn />
+                                    <FaLinkedinIn/>
                                 </a>
                             </li>
                         </ul>
@@ -92,4 +89,5 @@ function Home2() {
         </Container>
     );
 }
+
 export default Home2;
