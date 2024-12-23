@@ -14,10 +14,7 @@ function Footer() {
                 <Col md="4" className="footer-copywright">
                     <h3>Developed by Brandon Yuan</h3>
                 </Col>
-                <Col md="4" className="footer-copywright">
-                    <h3>Copyright © {year} </h3>
-                </Col>
-                <Col md="4" className="footer-body">
+                <Col md="8" className="footer-body" style = {{paddingLeft: '100px'}}>
                     <ul className="footer-icons">
                         <li className="social-icons">
                             <a
