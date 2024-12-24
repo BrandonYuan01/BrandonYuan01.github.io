@@ -56,7 +56,7 @@ function Home2() {
                            My field of interests include: compilers, computer architecture, and full-stack development
                         </p>
                     </Col>
-                    <Col md={5} className="home-about-social" style={{paddingLeft: 100}}>
+                    <Col md={5} className="home-about-social" style={{paddingLeft: 0}}>
                         <img
                             src={uvaLogo}
                             alt="UVA Logo"
