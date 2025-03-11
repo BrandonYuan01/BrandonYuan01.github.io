@@ -6,7 +6,7 @@ import SipC from "../../Assets/Projects/sipc.png";
 import rsa from "../../Assets/Projects/rsa.png";
 import course from "../../Assets/Projects/course.png";
 import page from "../../Assets/Projects/page.png";
-import clustering from "../../Assets/Projects/page.png";
+import clustering from "../../Assets/Projects/clustering.png";
 
 
 function Projects() {
