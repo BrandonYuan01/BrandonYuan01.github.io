@@ -53,7 +53,7 @@ function Home2() {
                             <br/>
 
                             <br/>
-                           My field of interests include: compilers, computer architecture, and full-stack development
+                           My field of interests include: compilers, computer architecture, and full-stack development.
                         </p>
                     </Col>
                     <Col md={5} className="home-about-social" style={{paddingLeft: 0}}>
