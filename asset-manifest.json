@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d0a11ba9.css",
-    "main.js": "/static/js/main.2c63d45e.js",
+    "main.js": "/static/js/main.c0837116.js",
     "static/media/clustering.png": "/static/media/clustering.a621acd5d43cd43364c9.png",
     "static/media/BrandonYuan_Resume.pdf": "/static/media/BrandonYuan_Resume.d21615160996061c8e5a.pdf",
     "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
@@ -11,10 +11,10 @@
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
     "main.d0a11ba9.css.map": "/static/css/main.d0a11ba9.css.map",
-    "main.2c63d45e.js.map": "/static/js/main.2c63d45e.js.map"
+    "main.c0837116.js.map": "/static/js/main.c0837116.js.map"
   },
   "entrypoints": [
     "static/css/main.d0a11ba9.css",
-    "static/js/main.2c63d45e.js"
+    "static/js/main.c0837116.js"
   ]
 }
