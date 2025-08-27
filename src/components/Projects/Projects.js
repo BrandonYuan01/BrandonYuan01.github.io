@@ -7,6 +7,7 @@ import rsa from "../../Assets/Projects/rsa.png";
 import course from "../../Assets/Projects/course.png";
 import page from "../../Assets/Projects/page.png";
 import clustering from "../../Assets/Projects/clustering.png";
+import TSA from "../../Assets/Projects/TSA.png";
 
 
 function Projects() {
@@ -21,6 +22,17 @@ function Projects() {
                     Here are a few projects I've worked on.
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={TSA}
+                            isBlog={false}
+                            title="TSA Website"
+                            description="A website created for the Taiwanese Student Association"
+                            ghLink="https://github.com/Taiwanese-Student-Association-UVA/tsa-website"
+                            demoLink="https://tsaatuva.org"
+                        />
+                    </Col>
+
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={SipC}
